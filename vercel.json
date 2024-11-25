@@ -1,13 +1,13 @@
 {
     "functions": {
-        "**/*.php": {
+        "OGtech/**/*.php": {
             "runtime": "vercel-php@0.6.0"
         }
     },
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/index.php"
+            "OGtech": "/(.*)",
+            "dest": "/OGtech/index.php"
         }
     ]
 }
